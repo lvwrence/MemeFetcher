@@ -1,0 +1,685 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		21A0959B1AD8C5710029A9CB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 21A0959A1AD8C5710029A9CB /* main.m */; };
+		21A0959E1AD8C5710029A9CB /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 21A0959D1AD8C5710029A9CB /* AppDelegate.m */; };
+		21A095A11AD8C5710029A9CB /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 21A095A01AD8C5710029A9CB /* ViewController.m */; };
+		21A095A41AD8C5710029A9CB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 21A095A21AD8C5710029A9CB /* Main.storyboard */; };
+		21A095A61AD8C5710029A9CB /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 21A095A51AD8C5710029A9CB /* Images.xcassets */; };
+		21A095A91AD8C5710029A9CB /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 21A095A71AD8C5710029A9CB /* LaunchScreen.xib */; };
+		21A095B51AD8C5710029A9CB /* MemeFetcherTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 21A095B41AD8C5710029A9CB /* MemeFetcherTests.m */; };
+		21A095C81AD8C63B0029A9CB /* InterfaceController.m in Sources */ = {isa = PBXBuildFile; fileRef = 21A095C71AD8C63B0029A9CB /* InterfaceController.m */; };
+		21A095CA1AD8C63B0029A9CB /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 21A095C91AD8C63B0029A9CB /* Images.xcassets */; };
+		21A095CE1AD8C63B0029A9CB /* MemeFetcher WatchKit App.app in Resources */ = {isa = PBXBuildFile; fileRef = 21A095CD1AD8C63B0029A9CB /* MemeFetcher WatchKit App.app */; };
+		21A095D61AD8C63B0029A9CB /* Interface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 21A095D41AD8C63B0029A9CB /* Interface.storyboard */; };
+		21A095D81AD8C63B0029A9CB /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 21A095D71AD8C63B0029A9CB /* Images.xcassets */; };
+		21A095DB1AD8C63B0029A9CB /* MemeFetcher WatchKit Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 21A095C21AD8C63B0029A9CB /* MemeFetcher WatchKit Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		21A095AF1AD8C5710029A9CB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 21A0958D1AD8C5710029A9CB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 21A095941AD8C5710029A9CB;
+			remoteInfo = MemeFetcher;
+		};
+		21A095CF1AD8C63B0029A9CB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 21A0958D1AD8C5710029A9CB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 21A095CC1AD8C63B0029A9CB;
+			remoteInfo = "MemeFetcher WatchKit App";
+		};
+		21A095D91AD8C63B0029A9CB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 21A0958D1AD8C5710029A9CB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 21A095C11AD8C63B0029A9CB;
+			remoteInfo = "MemeFetcher WatchKit Extension";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		21A095E21AD8C63B0029A9CB /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				21A095DB1AD8C63B0029A9CB /* MemeFetcher WatchKit Extension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		21A095951AD8C5710029A9CB /* MemeFetcher.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MemeFetcher.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		21A095991AD8C5710029A9CB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		21A0959A1AD8C5710029A9CB /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		21A0959C1AD8C5710029A9CB /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		21A0959D1AD8C5710029A9CB /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		21A0959F1AD8C5710029A9CB /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		21A095A01AD8C5710029A9CB /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		21A095A31AD8C5710029A9CB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		21A095A51AD8C5710029A9CB /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		21A095A81AD8C5710029A9CB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		21A095AE1AD8C5710029A9CB /* MemeFetcherTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MemeFetcherTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		21A095B31AD8C5710029A9CB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		21A095B41AD8C5710029A9CB /* MemeFetcherTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MemeFetcherTests.m; sourceTree = "<group>"; };
+		21A095C21AD8C63B0029A9CB /* MemeFetcher WatchKit Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "MemeFetcher WatchKit Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		21A095C51AD8C63B0029A9CB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		21A095C61AD8C63B0029A9CB /* InterfaceController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = InterfaceController.h; sourceTree = "<group>"; };
+		21A095C71AD8C63B0029A9CB /* InterfaceController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = InterfaceController.m; sourceTree = "<group>"; };
+		21A095C91AD8C63B0029A9CB /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		21A095CD1AD8C63B0029A9CB /* MemeFetcher WatchKit App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "MemeFetcher WatchKit App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		21A095D31AD8C63B0029A9CB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		21A095D51AD8C63B0029A9CB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Interface.storyboard; sourceTree = "<group>"; };
+		21A095D71AD8C63B0029A9CB /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		21A095921AD8C5710029A9CB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		21A095AB1AD8C5710029A9CB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		21A095BF1AD8C63B0029A9CB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		21A0958C1AD8C5710029A9CB = {
+			isa = PBXGroup;
+			children = (
+				21A095971AD8C5710029A9CB /* MemeFetcher */,
+				21A095B11AD8C5710029A9CB /* MemeFetcherTests */,
+				21A095C31AD8C63B0029A9CB /* MemeFetcher WatchKit Extension */,
+				21A095D11AD8C63B0029A9CB /* MemeFetcher WatchKit App */,
+				21A095961AD8C5710029A9CB /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		21A095961AD8C5710029A9CB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				21A095951AD8C5710029A9CB /* MemeFetcher.app */,
+				21A095AE1AD8C5710029A9CB /* MemeFetcherTests.xctest */,
+				21A095C21AD8C63B0029A9CB /* MemeFetcher WatchKit Extension.appex */,
+				21A095CD1AD8C63B0029A9CB /* MemeFetcher WatchKit App.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		21A095971AD8C5710029A9CB /* MemeFetcher */ = {
+			isa = PBXGroup;
+			children = (
+				21A0959C1AD8C5710029A9CB /* AppDelegate.h */,
+				21A0959D1AD8C5710029A9CB /* AppDelegate.m */,
+				21A0959F1AD8C5710029A9CB /* ViewController.h */,
+				21A095A01AD8C5710029A9CB /* ViewController.m */,
+				21A095A21AD8C5710029A9CB /* Main.storyboard */,
+				21A095A51AD8C5710029A9CB /* Images.xcassets */,
+				21A095A71AD8C5710029A9CB /* LaunchScreen.xib */,
+				21A095981AD8C5710029A9CB /* Supporting Files */,
+			);
+			path = MemeFetcher;
+			sourceTree = "<group>";
+		};
+		21A095981AD8C5710029A9CB /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				21A095991AD8C5710029A9CB /* Info.plist */,
+				21A0959A1AD8C5710029A9CB /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		21A095B11AD8C5710029A9CB /* MemeFetcherTests */ = {
+			isa = PBXGroup;
+			children = (
+				21A095B41AD8C5710029A9CB /* MemeFetcherTests.m */,
+				21A095B21AD8C5710029A9CB /* Supporting Files */,
+			);
+			path = MemeFetcherTests;
+			sourceTree = "<group>";
+		};
+		21A095B21AD8C5710029A9CB /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				21A095B31AD8C5710029A9CB /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		21A095C31AD8C63B0029A9CB /* MemeFetcher WatchKit Extension */ = {
+			isa = PBXGroup;
+			children = (
+				21A095C61AD8C63B0029A9CB /* InterfaceController.h */,
+				21A095C71AD8C63B0029A9CB /* InterfaceController.m */,
+				21A095C91AD8C63B0029A9CB /* Images.xcassets */,
+				21A095C41AD8C63B0029A9CB /* Supporting Files */,
+			);
+			path = "MemeFetcher WatchKit Extension";
+			sourceTree = "<group>";
+		};
+		21A095C41AD8C63B0029A9CB /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				21A095C51AD8C63B0029A9CB /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		21A095D11AD8C63B0029A9CB /* MemeFetcher WatchKit App */ = {
+			isa = PBXGroup;
+			children = (
+				21A095D41AD8C63B0029A9CB /* Interface.storyboard */,
+				21A095D71AD8C63B0029A9CB /* Images.xcassets */,
+				21A095D21AD8C63B0029A9CB /* Supporting Files */,
+			);
+			path = "MemeFetcher WatchKit App";
+			sourceTree = "<group>";
+		};
+		21A095D21AD8C63B0029A9CB /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				21A095D31AD8C63B0029A9CB /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		21A095941AD8C5710029A9CB /* MemeFetcher */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 21A095B81AD8C5710029A9CB /* Build configuration list for PBXNativeTarget "MemeFetcher" */;
+			buildPhases = (
+				21A095911AD8C5710029A9CB /* Sources */,
+				21A095921AD8C5710029A9CB /* Frameworks */,
+				21A095931AD8C5710029A9CB /* Resources */,
+				21A095E21AD8C63B0029A9CB /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				21A095DA1AD8C63B0029A9CB /* PBXTargetDependency */,
+			);
+			name = MemeFetcher;
+			productName = MemeFetcher;
+			productReference = 21A095951AD8C5710029A9CB /* MemeFetcher.app */;
+			productType = "com.apple.product-type.application";
+		};
+		21A095AD1AD8C5710029A9CB /* MemeFetcherTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 21A095BB1AD8C5710029A9CB /* Build configuration list for PBXNativeTarget "MemeFetcherTests" */;
+			buildPhases = (
+				21A095AA1AD8C5710029A9CB /* Sources */,
+				21A095AB1AD8C5710029A9CB /* Frameworks */,
+				21A095AC1AD8C5710029A9CB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				21A095B01AD8C5710029A9CB /* PBXTargetDependency */,
+			);
+			name = MemeFetcherTests;
+			productName = MemeFetcherTests;
+			productReference = 21A095AE1AD8C5710029A9CB /* MemeFetcherTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		21A095C11AD8C63B0029A9CB /* MemeFetcher WatchKit Extension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 21A095DF1AD8C63B0029A9CB /* Build configuration list for PBXNativeTarget "MemeFetcher WatchKit Extension" */;
+			buildPhases = (
+				21A095BE1AD8C63B0029A9CB /* Sources */,
+				21A095BF1AD8C63B0029A9CB /* Frameworks */,
+				21A095C01AD8C63B0029A9CB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				21A095D01AD8C63B0029A9CB /* PBXTargetDependency */,
+			);
+			name = "MemeFetcher WatchKit Extension";
+			productName = "MemeFetcher WatchKit Extension";
+			productReference = 21A095C21AD8C63B0029A9CB /* MemeFetcher WatchKit Extension.appex */;
+			productType = "com.apple.product-type.watchkit-extension";
+		};
+		21A095CC1AD8C63B0029A9CB /* MemeFetcher WatchKit App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 21A095DC1AD8C63B0029A9CB /* Build configuration list for PBXNativeTarget "MemeFetcher WatchKit App" */;
+			buildPhases = (
+				21A095CB1AD8C63B0029A9CB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "MemeFetcher WatchKit App";
+			productName = "MemeFetcher WatchKit App";
+			productReference = 21A095CD1AD8C63B0029A9CB /* MemeFetcher WatchKit App.app */;
+			productType = "com.apple.product-type.application.watchapp";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		21A0958D1AD8C5710029A9CB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0630;
+				ORGANIZATIONNAME = "Lawrence Wu";
+				TargetAttributes = {
+					21A095941AD8C5710029A9CB = {
+						CreatedOnToolsVersion = 6.3;
+					};
+					21A095AD1AD8C5710029A9CB = {
+						CreatedOnToolsVersion = 6.3;
+						TestTargetID = 21A095941AD8C5710029A9CB;
+					};
+					21A095C11AD8C63B0029A9CB = {
+						CreatedOnToolsVersion = 6.3;
+					};
+					21A095CC1AD8C63B0029A9CB = {
+						CreatedOnToolsVersion = 6.3;
+					};
+				};
+			};
+			buildConfigurationList = 21A095901AD8C5710029A9CB /* Build configuration list for PBXProject "MemeFetcher" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 21A0958C1AD8C5710029A9CB;
+			productRefGroup = 21A095961AD8C5710029A9CB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				21A095941AD8C5710029A9CB /* MemeFetcher */,
+				21A095AD1AD8C5710029A9CB /* MemeFetcherTests */,
+				21A095C11AD8C63B0029A9CB /* MemeFetcher WatchKit Extension */,
+				21A095CC1AD8C63B0029A9CB /* MemeFetcher WatchKit App */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		21A095931AD8C5710029A9CB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				21A095A41AD8C5710029A9CB /* Main.storyboard in Resources */,
+				21A095A91AD8C5710029A9CB /* LaunchScreen.xib in Resources */,
+				21A095A61AD8C5710029A9CB /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		21A095AC1AD8C5710029A9CB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		21A095C01AD8C63B0029A9CB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				21A095CE1AD8C63B0029A9CB /* MemeFetcher WatchKit App.app in Resources */,
+				21A095CA1AD8C63B0029A9CB /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		21A095CB1AD8C63B0029A9CB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				21A095D61AD8C63B0029A9CB /* Interface.storyboard in Resources */,
+				21A095D81AD8C63B0029A9CB /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		21A095911AD8C5710029A9CB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				21A095A11AD8C5710029A9CB /* ViewController.m in Sources */,
+				21A0959E1AD8C5710029A9CB /* AppDelegate.m in Sources */,
+				21A0959B1AD8C5710029A9CB /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		21A095AA1AD8C5710029A9CB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				21A095B51AD8C5710029A9CB /* MemeFetcherTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		21A095BE1AD8C63B0029A9CB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				21A095C81AD8C63B0029A9CB /* InterfaceController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		21A095B01AD8C5710029A9CB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 21A095941AD8C5710029A9CB /* MemeFetcher */;
+			targetProxy = 21A095AF1AD8C5710029A9CB /* PBXContainerItemProxy */;
+		};
+		21A095D01AD8C63B0029A9CB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 21A095CC1AD8C63B0029A9CB /* MemeFetcher WatchKit App */;
+			targetProxy = 21A095CF1AD8C63B0029A9CB /* PBXContainerItemProxy */;
+		};
+		21A095DA1AD8C63B0029A9CB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 21A095C11AD8C63B0029A9CB /* MemeFetcher WatchKit Extension */;
+			targetProxy = 21A095D91AD8C63B0029A9CB /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		21A095A21AD8C5710029A9CB /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				21A095A31AD8C5710029A9CB /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		21A095A71AD8C5710029A9CB /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				21A095A81AD8C5710029A9CB /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+		21A095D41AD8C63B0029A9CB /* Interface.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				21A095D51AD8C63B0029A9CB /* Base */,
+			);
+			name = Interface.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		21A095B61AD8C5710029A9CB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		21A095B71AD8C5710029A9CB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		21A095B91AD8C5710029A9CB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = MemeFetcher/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		21A095BA1AD8C5710029A9CB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = MemeFetcher/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		21A095BC1AD8C5710029A9CB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = MemeFetcherTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MemeFetcher.app/MemeFetcher";
+			};
+			name = Debug;
+		};
+		21A095BD1AD8C5710029A9CB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = MemeFetcherTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MemeFetcher.app/MemeFetcher";
+			};
+			name = Release;
+		};
+		21A095DD1AD8C63B0029A9CB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				IBSC_MODULE = MemeFetcher_WatchKit_Extension;
+				INFOPLIST_FILE = "MemeFetcher WatchKit App/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				"TARGETED_DEVICE_FAMILY[sdk=iphonesimulator*]" = "1,4";
+			};
+			name = Debug;
+		};
+		21A095DE1AD8C63B0029A9CB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				IBSC_MODULE = MemeFetcher_WatchKit_Extension;
+				INFOPLIST_FILE = "MemeFetcher WatchKit App/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				"TARGETED_DEVICE_FAMILY[sdk=iphonesimulator*]" = "1,4";
+			};
+			name = Release;
+		};
+		21A095E01AD8C63B0029A9CB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "MemeFetcher WatchKit Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		21A095E11AD8C63B0029A9CB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "MemeFetcher WatchKit Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		21A095901AD8C5710029A9CB /* Build configuration list for PBXProject "MemeFetcher" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				21A095B61AD8C5710029A9CB /* Debug */,
+				21A095B71AD8C5710029A9CB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		21A095B81AD8C5710029A9CB /* Build configuration list for PBXNativeTarget "MemeFetcher" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				21A095B91AD8C5710029A9CB /* Debug */,
+				21A095BA1AD8C5710029A9CB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		21A095BB1AD8C5710029A9CB /* Build configuration list for PBXNativeTarget "MemeFetcherTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				21A095BC1AD8C5710029A9CB /* Debug */,
+				21A095BD1AD8C5710029A9CB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		21A095DC1AD8C63B0029A9CB /* Build configuration list for PBXNativeTarget "MemeFetcher WatchKit App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				21A095DD1AD8C63B0029A9CB /* Debug */,
+				21A095DE1AD8C63B0029A9CB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		21A095DF1AD8C63B0029A9CB /* Build configuration list for PBXNativeTarget "MemeFetcher WatchKit Extension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				21A095E01AD8C63B0029A9CB /* Debug */,
+				21A095E11AD8C63B0029A9CB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 21A0958D1AD8C5710029A9CB /* Project object */;
+}
