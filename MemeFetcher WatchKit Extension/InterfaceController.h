@@ -11,6 +11,10 @@
 
 @interface InterfaceController : WKInterfaceController
 
-@property (weak, nonatomic) IBOutlet WKInterfaceImage* meme;
+@property (weak, nonatomic) IBOutlet WKInterfaceButton *memeButton;
+
+- (IBAction)memePressed;
+- (void) loadMeme;
+
 
 @end
