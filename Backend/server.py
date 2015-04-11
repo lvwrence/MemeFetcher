@@ -22,10 +22,13 @@ def admin():
 
 @app.route("/submit", methods=["POST"])
 def submit():
-    memeURL = request.form["url"]
-    randname = "./memes/" + randomword(8) + ".jpeg"
-    urllib.request.urlretrieve(memeURL, randname) 
-    return "memesubmitted"
+    if request.form["pass"] == "me2x":
+        memeURL = request.form["url"]
+        randname = "./memes/" + randomword(8) + ".jpeg"
+        urllib.request.urlretrieve(memeURL, randname) 
+        return "Meme submitted as: " + randname[8:]
+    else:
+        return "Setting Invalid, did you mean 'meme'?"
 
 def get_memes():
     return listdir("./memes")
