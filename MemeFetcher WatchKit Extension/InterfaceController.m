@@ -37,7 +37,7 @@ TODO
 }
 
 - (void) loadMeme {
-    NSData *memeData = [[NSData alloc] initWithContentsOfURL: [NSURL URLWithString: @"http://img-9gag-ftw.9cache.com/photo/ae0xWyj_700b.jpg"]];
+    NSData *memeData = [[NSData alloc] initWithContentsOfURL: [NSURL URLWithString: @"http://52.5.46.132/meme"]];
     
     // wrap it in uiimage class
     UIImage *memeImage = [UIImage imageWithData: memeData];
