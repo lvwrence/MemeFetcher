@@ -10,7 +10,8 @@ TODO
 -Infinite loading
 -Asynchronous 
 -Set up server
-
+-Preload images
+- Error if no internet.
 
 */
 

@@ -20,6 +20,8 @@
 		21A095D61AD8C63B0029A9CB /* Interface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 21A095D41AD8C63B0029A9CB /* Interface.storyboard */; };
 		21A095D81AD8C63B0029A9CB /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 21A095D71AD8C63B0029A9CB /* Images.xcassets */; };
 		21A095DB1AD8C63B0029A9CB /* MemeFetcher WatchKit Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 21A095C21AD8C63B0029A9CB /* MemeFetcher WatchKit Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		7B2009C51AD8F52400581CFF /* MemeMedia.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7B2009C41AD8F52400581CFF /* MemeMedia.xcassets */; };
+		7B2009C61AD8F52400581CFF /* MemeMedia.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7B2009C41AD8F52400581CFF /* MemeMedia.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -83,6 +85,7 @@
 		21A095D31AD8C63B0029A9CB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		21A095D51AD8C63B0029A9CB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Interface.storyboard; sourceTree = "<group>"; };
 		21A095D71AD8C63B0029A9CB /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		7B2009C41AD8F52400581CFF /* MemeMedia.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = MemeMedia.xcassets; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -113,6 +116,7 @@
 		21A0958C1AD8C5710029A9CB = {
 			isa = PBXGroup;
 			children = (
+				7B2009C41AD8F52400581CFF /* MemeMedia.xcassets */,
 				21A095971AD8C5710029A9CB /* MemeFetcher */,
 				21A095B11AD8C5710029A9CB /* MemeFetcherTests */,
 				21A095C31AD8C63B0029A9CB /* MemeFetcher WatchKit Extension */,
@@ -335,6 +339,7 @@
 			files = (
 				21A095A41AD8C5710029A9CB /* Main.storyboard in Resources */,
 				21A095A91AD8C5710029A9CB /* LaunchScreen.xib in Resources */,
+				7B2009C51AD8F52400581CFF /* MemeMedia.xcassets in Resources */,
 				21A095A61AD8C5710029A9CB /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -361,6 +366,7 @@
 			files = (
 				21A095D61AD8C63B0029A9CB /* Interface.storyboard in Resources */,
 				21A095D81AD8C63B0029A9CB /* Images.xcassets in Resources */,
+				7B2009C61AD8F52400581CFF /* MemeMedia.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
