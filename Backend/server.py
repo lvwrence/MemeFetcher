@@ -1,6 +1,8 @@
-from flask import Flask, send_from_directory
+from flask import Flask, send_from_directory, render_template, request 
 from os import listdir
 from random import choice
+import urllib
+from string import ascii_lowercase
 
 app = Flask(__name__)
 app.debug = True
@@ -14,12 +16,22 @@ def meme():
     # serve image.
     return send_from_directory('memes', target_meme)
 
-@app.route("/submit")
-def submitURL():
-    return "Hello World!"
+@app.route("/admin")
+def admin():
+    return render_template("admin.html")
+
+@app.route("/submit", methods=["POST"])
+def submit():
+    memeURL = request.form["url"]
+    randname = "./memes/" + randomword(8) + ".jpeg"
+    urllib.request.urlretrieve(memeURL, randname) 
+    return "memesubmitted"
 
 def get_memes():
     return listdir("./memes")
+
+def randomword(length):
+   return ''.join(choice(ascii_lowercase) for i in range(length))
 
 if __name__ == "__main__":
     app.run()
