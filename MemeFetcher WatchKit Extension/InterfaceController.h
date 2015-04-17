@@ -9,12 +9,15 @@
 #import <WatchKit/WatchKit.h>
 #import <Foundation/Foundation.h>
 
-@interface InterfaceController : WKInterfaceController
-
+@interface InterfaceController : WKInterfaceController <NSURLConnectionDelegate>
+{
+    NSMutableData *_memeData;
+    BOOL memeReady;
+}
 @property (weak, nonatomic) IBOutlet WKInterfaceButton *memeButton;
 
 - (IBAction)memePressed;
-- (void) loadMeme;
+- (void) preloadMeme;
 
 
 @end
